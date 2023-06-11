@@ -4,11 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Turismo</title>
-    <link type="text/css" rel="stylesheet" href="./CSS/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="./IMAGS/LOGO INSTITUCIONAL IPET 379.png">
+    <link rel="stylesheet" type="text/css" href="./CSS/estilos.css" >
+   
+    <title>Proyecto</title>
 </head>
 <body>
-    <h1>titulo</h1>
-    <form action="#" method="POST"></form>
+    <!--contenedor general-->
+    <div class="container contenedor">
+        
+        <header>
+            <h1>PROYECTO TURISMO <span>C&oacuterdoba</span></h1>
+            <!--Carusel Bootstrap Indicators-->
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./IMAGS/paisaje1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./IMAGS/paisaje2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./IMAGS/paisaje3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./IMAGS/paisaje4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            <!--Fin Carusel Bootstrap-->
+        </header>
+        <!--Fin Encabezado Página-->
+
+        <!--Barra Navegación Menú-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary m-3 p-3">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        <!--Fin Barra Navegación Menú-->
+        <!--Inicio Sección 1-->
+        <section>
+            <div class="row p-3">
+               
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 cols p-3">
+                    <article>
+                        <h2>Articulo 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusantium unde atque soluta ab reiciendis veritatis sapiente eius autem iste nihil dolore ipsum doloribus nisi, placeat recusandae tenetur, harum suscipit!</p>
+
+                        <img src="./IMAGS/cordoba.jpg" class="img-fluid" alt="Córdoba" title="https://disfrutandodelviaje.com/wp-content/uploads/2012/10/CordobaCatedral1-800x600.jpeg">
+                        <button type="button" class="btn btn-outline-dark m-2 btnP">Córdoba</button>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 cols dos p-3">
+                    <article>
+                        <h2>Articulo 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusantium unde atque soluta ab reiciendis veritatis sapiente eius autem iste nihil dolore ipsum doloribus nisi, placeat recusandae tenetur, harum suscipit!</p>
+                        <img src="./IMAGS/cordoba.jpg" class="img-fluid" alt="Córdoba" title="https://disfrutandodelviaje.com/wp-content/uploads/2012/10/CordobaCatedral1-800x600.jpeg">
+                        <button type="button" class="btn btn-outline-dark m-2 btnP">Córdoba</button>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 cols tres p-3">
+                    <article>
+                        <h2>Articulo 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur accusantium unde atque soluta ab reiciendis veritatis sapiente eius autem iste nihil dolore ipsum doloribus nisi, placeat recusandae tenetur, harum suscipit!</p>
+                        <img src="./IMAGS/cordoba.jpg" class="img-fluid" alt="Córdoba" title="Imagen: disfrutandodelviaje.com">
+                        <button type="button" class="btn btn-outline-dark  m-2 btnP">Córdoba</button>
+                    </article>
+                </div>
+            </div>
+            
+        </section>
+        <!--Fin Sección 1-->
+        <!--Aside-->
+        <aside>
+          <div class="row p-3">
+               
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 cols p-3">
+              <a class="icon-link" href="https://www.facebook.com/">
+                <img src="./IMAGS/facebook.png" class="img-fluid w-25" alt="logo-Facebook" >
+              </a>
+                     <a></a> 
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 cols dos p-3">
+              <a class="icon-link" href="https://twitter.com/">
+                <img src="./IMAGS/twitter.png" class="img-fluid w-25" alt="logo-Twitter" ></a>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 cols tres p-3">
+              <a class="icon-link" href="https://www.instagram.com/">
+                <img src="./IMAGS/instagram.png" class="img-fluid w-25" alt="logo-Instagram" ></a>
+            </div>
+        </div>
+        </aside>
+        <!-- Fin Aside-->
+        <!--Inicio Footer-->
+        <footer>
+          <div class="row">
+            <h3>NOMBRE APELLIDO GROUP</h3>
+            <p>Dirección</p>
+            <p>Teléfono</p>
+          </div>
+        </footer>
+        <!--Fin Footer-->
+    </div>
+    <!--Fin contenedor general-->
+  
 </body>
 </html>
